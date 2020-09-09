@@ -16,7 +16,7 @@ sap.ui.define([
 				type: "GET",
 				contentType: "application/json",
 				crossDomain: true,
-				url: "/iotappv1/iot/processing/api/v1/tenant/tenantID/measures/capabilities/capabilitiesID?skip=0&top=100&orderby=timestamp%20desc",
+				url: "/iotappv1/iot/processing/api/v1/tenant/tenantID/measures/capabilities/capabilityID?skip=0&top=100&orderby=timestamp%20desc",
 				xhrFields: {
 					withCredentials: true
 				},
